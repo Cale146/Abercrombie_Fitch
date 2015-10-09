@@ -1,0 +1,71 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="${relativePackage}.${activityClass}" >
+
+   <TableRow
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:gravity="center_horizontal">
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="@string/dolceVita"
+           android:textSize="25sp"
+           android:gravity="center_horizontal"
+           android:textColor="@android:color/white"
+           android:padding="5sp" />
+       
+   	</TableRow>
+   	
+    <TableRow
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:gravity="center_horizontal">
+	
+    	<ImageView
+	    	android:id="@+id/ImageView"
+            android:layout_weight="1" 
+            android:background="@drawable/app_women_brands"
+            android:gravity="center"/>
+
+   	</TableRow>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ourFavorite"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+   	
+    <TableRow
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:gravity="center_horizontal">
+
+    	<Button
+        	android:id="@+id/button2"
+            android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="@string/shopNow"
+		    android:textSize="30sp"
+		    android:textColor="@android:color/white"/>  
+		        
+   	</TableRow>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exclusions"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white" />
+
+</TableLayout>

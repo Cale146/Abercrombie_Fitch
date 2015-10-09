@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AF_Promotion</string>
+    <string name="hello_world">Hello world!</string>
+
+    <color name="black">#000000</color>
+
+    <string name="shopNow">Shop Now</string>
+    <string name="title_activity_promotion">PromotionActivity</string>
+    <string name="dolceVita">Dolce Vita</string>
+    <string name="shortsStarting">Shorts Starting at $25</string>
+    <string name="ourFavorite">Our Favorite Brands</string>
+    <string name="exclusions">In stores &amp; online. Exclusions apply.</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+
+</resources>
